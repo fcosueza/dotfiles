@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true 
+  },
+
+  "rules": {
+    "no-plusplus": "off",
+    "prefer-template": "off",
+    "quotes": ["error", "double"]
+  }
+}
