@@ -33,9 +33,6 @@ filetype on
 " Indent plugin start
 filetype plugin indent on  
 
-" delimitMate options
-let delimitMate_expand_cr = 1
-
 " YouCompleteMe options
 let g:ycm_add_preview_to_completeopt = 0
 let g:ycm_rust_src_path = $RUST_SRC_PATH
@@ -44,7 +41,6 @@ set completeopt-=preview
 " ALE options 
 let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': ['eslint']}
 let g:airline#extensions#ale#enabled = 1
-let g:ale_linters_explicit = 1
 let g:ale_lint_on_text_changed = 'never'
 
 " Uncomment the next line to make Vim more Vi-compatible
