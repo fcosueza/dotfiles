@@ -32,7 +32,6 @@ call vundle#end()
 " Restore filetype on
 filetype on
 
-
 " Indent plugin start
 filetype plugin indent on
 
@@ -54,7 +53,6 @@ let g:ale_fix_on_save = 1
 " Uncomment the next line to make Vim more Vi-compatible
 " options, so any other options should be set AFTER setting 'compatible'.
 set nocompatible
-
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
@@ -89,7 +87,6 @@ map <C-n> :NERDTreeToggle<CR>
 let g:user_emmet_leader_key=','
 
 " General vim  options
-
 set t_Co=256        " set terminal color to 256
 set autoindent      " autoindentation
 set number          " numbering lines
