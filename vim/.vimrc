@@ -96,5 +96,5 @@ set expandtab       " don't use tab character
 set colorcolumn=120 " max code line lenght of 120
 set ttimeoutlen=50  " reducing delay
 
-" Set colorscheme
+" Set colorcolumn color
 highlight ColorColumn ctermbg = yellow
