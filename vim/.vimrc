@@ -96,9 +96,5 @@ set expandtab       " don't use tab character
 set colorcolumn=120 " max code line lenght of 120
 set ttimeoutlen=50  " reducing delay
 
-" Override jellybeans theme background to improve contrast
-let g:jellybeans_overrides = {'background': { 'guibg': '111111' },}
-
 " Set colorscheme
-colorscheme jellybeans
-highlight ColorColumn ctermbg = 22
+highlight ColorColumn ctermbg = yellow
