@@ -6,6 +6,12 @@
     "browser": true
   },
 
+  "parserOptions": {
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  }, 
+
   "rules": {
     "no-plusplus": "off",
     "prefer-template": "off",
