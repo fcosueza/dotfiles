@@ -22,6 +22,7 @@ Plugin 'hail2u/vim-css3-syntax'         " css3 syntax highlighting
 Plugin 'othree/html5.vim'               " html5 syntax plugin
 Plugin 'pangloss/vim-javascript'        " javascript syntax plugin
 Plugin 'rust-lang/rust.vim'             " rust language support
+Plugin 'plasticboy/vim-markdown'        " markdown syntax plugin
 Plugin 'Valloric/YouCompleteMe'         " autocomplete plugin
 Plugin 'tpope/vim-fugitive'             " git integration
 Plugin 'w0rp/ale'                       " Asynchronous Lint Engine
