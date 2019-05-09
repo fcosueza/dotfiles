@@ -10,11 +10,11 @@
     "ecmaFeatures": {
       "impliedStrict": true
     }
-  }, 
+  },
 
   "rules": {
     "no-plusplus": "off",
-    "prefer-template": "off",
+    "prefer-template": "error",
     "quotes": ["error", "double"],
     "comma-dangle": ["error", "never"]
   }
