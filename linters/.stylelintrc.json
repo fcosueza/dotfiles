@@ -2,6 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "color-hex-case": "lower",
+    "indetation": "off",
     "unit-case": "lower",
     "property-case": "lower",
     "function-parentheses-newline-inside": null,
