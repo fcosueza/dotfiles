@@ -94,8 +94,14 @@ set number          " numbering lines
 set tabstop=2       " 2 is enough
 set shiftwidth=2    " 2 is enough
 set expandtab       " don't use tab character
-set colorcolumn=120 " max code line lenght of 120
+set colorcolumn=80  " max code line lenght of 80
 set ttimeoutlen=50  " reducing delay
 
 " Set colorcolumn color
 highlight ColorColumn ctermbg = yellow
+
+" If opened file is a HTML file set colorcolumn to 120
+au BufNewFile,BufRead *.html setlocal colorcolumn=120
+
+" If opened file is a config file unset colorcolumn
+au BufNewFile,BufRead *rc setlocal colorcolumn=
