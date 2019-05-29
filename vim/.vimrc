@@ -12,6 +12,7 @@ call vundle#begin()
 " Plugin list
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'            " exploring dirs and files
+Plugin 'ctrlpvim/ctrlp.vim'             " fuzzy file, buffer, tags.. finder
 Plugin 'flazz/vim-colorschemes'         " adding some color schemes
 Plugin 'vim-airline/vim-airline-themes' " airline themes
 Plugin 'tpope/vim-surround'             " fast editing quotes, parenthesis, tags...
@@ -99,6 +100,6 @@ set ttimeoutlen=50  " reducing delay
 " Set colorcolumn color
 highlight ColorColumn ctermbg = yellow
 
-" Set colorcolumn according filetype
+" Set colorcolumn according to filetype
 au FileType html setlocal colorcolumn=120
 au FileType css,javascript setlocal colorcolumn=80
