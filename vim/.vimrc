@@ -101,5 +101,5 @@ set ttimeoutlen=50  " reducing delay
 highlight ColorColumn ctermbg = yellow
 
 " Set colorcolumn according to filetype
-au FileType html setlocal colorcolumn=120
+au FileType html setlocal colorcolumn=130
 au FileType css,javascript setlocal colorcolumn=80
