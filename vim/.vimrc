@@ -22,6 +22,7 @@ Plugin 'mattn/emmet-vim'                " abbreviations expansion for fast codin
 Plugin 'hail2u/vim-css3-syntax'         " css3 syntax highlighting
 Plugin 'othree/html5.vim'               " html5 syntax plugin
 Plugin 'pangloss/vim-javascript'        " javascript syntax plugin
+Plugin 'elzr/vim-json'                  " json syntax plugin
 Plugin 'rust-lang/rust.vim'             " rust language support
 Plugin 'plasticboy/vim-markdown'        " markdown syntax plugin
 Plugin 'Valloric/YouCompleteMe'         " autocomplete plugin
