@@ -92,11 +92,11 @@ let g:user_emmet_leader_key=','
 " General vim  options
 set t_Co=256        " set terminal color to 256
 set autoindent      " autoindentation
-set number          " numbering lines
 set tabstop=2       " 2 is enough
 set shiftwidth=2    " 2 is enough
 set expandtab       " don't use tab character
 set ttimeoutlen=50  " reducing delay
+set relativenumber  " relative number
 
 " Set colorcolumn color
 highlight ColorColumn ctermbg = yellow
