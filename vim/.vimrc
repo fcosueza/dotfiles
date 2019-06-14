@@ -107,3 +107,4 @@ au FileType css,javascript setlocal colorcolumn=100
 
 " Some syntax hightlight tweaks for Javascript
 hi link jsTemplateBraces Label
+highlight clear SignColumn
