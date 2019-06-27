@@ -5,6 +5,10 @@
     "unit-case": "lower",
     "property-case": "lower",
     "function-parentheses-newline-inside": null,
-    "shorthand-property-no-redundant-values": true
+    "shorthand-property-no-redundant-values": true,
+    "at-rule-no-vendor-prefix": false,
+    "property-no-vendor-prefix": false,
+    "selector-no-vendor-prefix": false,
+    "value-no-vendor-prefix": false
   }
 }
