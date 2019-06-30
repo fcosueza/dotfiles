@@ -98,3 +98,7 @@ fi
 if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   source ~/.config/exercism/exercism_completion.bash
 fi
+
+# Add asdf PATH
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
