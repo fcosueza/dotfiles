@@ -46,8 +46,10 @@ set completeopt -=preview
 " ALE options
 let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': ['eslint'], 'rust': ['cargo']}
 let g:ale_fixers = {
-\   '*': ['remove_trailing_lines',
-\         'trim_whitespace']
+\   'javascript': ['prettier', 'eslint'],
+\   'css': ['prettier'],
+\   'html': ['prettier'],
+\   '*': ['remove_trailing_lines', 'trim_whitespace']
 \}
 let g:airline#extensions#ale#enabled = 1
 let g:ale_lint_on_text_changed = 'never'
