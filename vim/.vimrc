@@ -99,6 +99,7 @@ set shiftwidth=2    " 2 is enough
 set expandtab       " don't use tab character
 set ttimeoutlen=50  " reducing delay
 set relativenumber  " relative number
+set autochdir       " auto change to current file's directory
 
 " Set colorcolumn color
 highlight ColorColumn ctermbg = yellow
