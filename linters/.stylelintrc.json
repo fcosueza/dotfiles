@@ -9,6 +9,7 @@
     "at-rule-no-vendor-prefix": false,
     "property-no-vendor-prefix": false,
     "selector-no-vendor-prefix": false,
-    "value-no-vendor-prefix": false
+    "value-no-vendor-prefix": false,
+    "declaration-colon-newline-after": "never"
   }
 }
