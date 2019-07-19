@@ -12,6 +12,7 @@
     "value-no-vendor-prefix": false,
     "declaration-colon-newline-after": "never",
     "font-family-name-quotes": "always-where-recommended",
-    "number-leading-zero": "always"
+    "number-leading-zero": "always",
+    "length-zero-no-unit": true
   }
 }
