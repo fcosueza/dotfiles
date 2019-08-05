@@ -19,6 +19,8 @@
     "quotes": ["error", "single"],
     "comma-dangle": ["error", "never"],
     "no-var": "error",
-    "prefer-destructuring": ["error", {"object": true, "array": true}]
+    "prefer-destructuring": ["error", {"object": true, "array": true}],
+    "max-line": ["error", 200],
+    "max-depth": {"max": 4}
   }
 }
