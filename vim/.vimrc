@@ -47,6 +47,7 @@ set completeopt -=preview
 let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': ['eslint'], 'rust': ['cargo']}
 let g:ale_fixers = {
 \   'javascript': ['prettier', 'eslint'],
+\   'html': ['prettier'],
 \   'css': ['prettier'],
 \   '*': ['remove_trailing_lines', 'trim_whitespace']
 \}
@@ -104,8 +105,7 @@ set autochdir       " auto change to current file's directory
 highlight ColorColumn ctermbg = yellow
 
 " Set colorcolumn according to filetype
-au FileType html setlocal colorcolumn=130
-au FileType css,javascript setlocal colorcolumn=100
+au FileType html,css,javascript setlocal colorcolumn=100
 
 " Some syntax hightlight tweaks for Javascript
 hi link jsTemplateBraces Label
