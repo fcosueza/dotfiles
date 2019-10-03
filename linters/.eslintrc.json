@@ -21,7 +21,7 @@
     "no-var": "error",
     "prefer-destructuring": ["error", {"object": true, "array": true}],
     "max-lines": ["error", 200],
-    "max-lines-per-function": ["error", 20],
-    "max-depth": ["error", 4] 
+    "max-lines-per-function": ["error", 40],
+    "max-depth": ["error", 4]
   }
 }
