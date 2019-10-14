@@ -20,8 +20,10 @@ Plugin 'jiangmiao/auto-pairs'           " automatic closing quotes, parenthesis.
 Plugin 'vim-airline/vim-airline'        " add state bar at the bottom
 Plugin 'mattn/emmet-vim'                " abbreviations expansion for fast coding
 Plugin 'hail2u/vim-css3-syntax'         " css3 syntax highlighting
+Plugin 'tpope/vim-haml'                 " haml, scss and sass support
 Plugin 'othree/html5.vim'               " html5 syntax plugin
 Plugin 'pangloss/vim-javascript'        " javascript syntax plugin
+Plugin 'mxw/vim-jsx'                    " support for syntax highlight in React
 Plugin 'elzr/vim-json'                  " json syntax plugin
 Plugin 'rust-lang/rust.vim'             " rust language support
 Plugin 'plasticboy/vim-markdown'        " markdown syntax plugin
@@ -52,6 +54,9 @@ let g:ale_fixers = {
 let g:airline#extensions#ale#enabled = 1
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_fix_on_save = 1
+
+" Vim-jsx options
+let g:jsx_ext_required = 1
 
 " Uncomment the next line to make Vim more Vi-compatible
 " options, so any other options should be set AFTER setting 'compatible'.
