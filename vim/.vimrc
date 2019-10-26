@@ -23,7 +23,7 @@ Plugin 'hail2u/vim-css3-syntax'         " css3 syntax highlighting
 Plugin 'tpope/vim-haml'                 " haml, scss and sass support
 Plugin 'othree/html5.vim'               " html5 syntax plugin
 Plugin 'pangloss/vim-javascript'        " javascript syntax plugin
-Plugin 'mxw/vim-jsx'                    " support for syntax highlight in React
+Plugin 'MaxMEllon/vim-jsx-pretty'       " React syntax highlight
 Plugin 'elzr/vim-json'                  " json syntax plugin
 Plugin 'rust-lang/rust.vim'             " rust language support
 Plugin 'plasticboy/vim-markdown'        " markdown syntax plugin
