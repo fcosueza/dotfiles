@@ -27,6 +27,7 @@ Plugin 'MaxMEllon/vim-jsx-pretty'       " React syntax highlight
 Plugin 'elzr/vim-json'                  " json syntax plugin
 Plugin 'rust-lang/rust.vim'             " rust language support
 Plugin 'plasticboy/vim-markdown'        " markdown syntax plugin
+Plugin 'cespare/vim-toml'               " TOML syntax plugin
 Plugin 'Valloric/YouCompleteMe'         " autocomplete plugin
 Plugin 'tpope/vim-fugitive'             " git integration
 Plugin 'w0rp/ale'                       " Asynchronous Lint Engine
@@ -48,7 +49,7 @@ set completeopt -=preview
 " ALE options
 let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': ['eslint'], 'rust': ['cargo']}
 let g:ale_fixers = {
-\   'javascript': ['prettier', 'eslint'],
+\   'javascript': ['prettier'],
 \   'css': ['prettier'],
 \   '*': ['remove_trailing_lines', 'trim_whitespace']
 \}
