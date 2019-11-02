@@ -102,3 +102,7 @@ fi
 # Add asdf PATH
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
+
+# Add Starshio prompt
+
+eval "$(starship  init bash)"
