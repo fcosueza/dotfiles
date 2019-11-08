@@ -49,7 +49,7 @@ set completeopt -=preview
 " ALE options
 let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': ['eslint'], 'rust': ['cargo']}
 let g:ale_fixers = {
-\   'javascript': ['prettier'],
+\   'javascript': ['prettier', 'eslint'],
 \   'css': ['prettier'],
 \   '*': ['remove_trailing_lines', 'trim_whitespace']
 \}
