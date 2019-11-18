@@ -103,6 +103,6 @@ fi
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
-# Add Starshio prompt
+# Add Starship prompt
 
 eval "$(starship  init bash)"
