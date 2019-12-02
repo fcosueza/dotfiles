@@ -110,7 +110,7 @@ set autochdir       " auto change to current file's directory
 highlight ColorColumn ctermbg = yellow
 
 " Set colorcolumn according to filetype
-au FileType javascript setlocal colorcolumn=86
+au FileType javascript,css setlocal colorcolumn=86
 
 " Some syntax hightlight tweaks for Javascript
 hi link jsTemplateBraces Label
