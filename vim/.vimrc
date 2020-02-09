@@ -12,6 +12,7 @@ call vundle#begin()
 " Plugin list
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'            " exploring dirs and files
+Plugin 'Xuyuanp/nerdtree-git-plugin'    " git integration with Nerdtree
 Plugin 'ctrlpvim/ctrlp.vim'             " fuzzy file, buffer, tags.. finder
 Plugin 'flazz/vim-colorschemes'         " adding some color schemes
 Plugin 'vim-airline/vim-airline-themes' " airline themes
@@ -49,6 +50,7 @@ set completeopt -=preview
 " ALE options
 let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': ['eslint'], 'rust': ['cargo']}
 let g:ale_fixers = {
+\   'rust':['rustfmt'],
 \   'javascript': ['prettier', 'eslint'],
 \   'css': ['prettier'],
 \   '*': ['remove_trailing_lines', 'trim_whitespace']
