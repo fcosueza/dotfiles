@@ -48,7 +48,7 @@ let g:ycm_rust_src_path = $RUST_SRC_PATH
 set completeopt -=preview
 
 " ALE options
-let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': ['eslint'], 'rust': ['cargo']}
+let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': ['eslint'], 'rust': ['rls']}
 let g:ale_fixers = {
 \   'rust':['rustfmt'],
 \   'javascript': ['prettier', 'eslint'],
