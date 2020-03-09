@@ -52,6 +52,7 @@ let g:ale_linters = {'css': ['stylelint'], 'html': ['htmlhint'], 'javascript': [
 let g:ale_fixers = {
 \   'rust':['rustfmt'],
 \   'javascript': ['prettier', 'eslint'],
+\   'css': ['prettier'],
 \   '*': ['remove_trailing_lines', 'trim_whitespace']
 \}
 let g:airline#extensions#ale#enabled = 1
