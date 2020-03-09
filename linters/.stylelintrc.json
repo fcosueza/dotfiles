@@ -17,7 +17,6 @@
     "selector-no-vendor-prefix": false,
     "value-no-vendor-prefix": false,
     "value-list-comma-newline-after": "never",
-    "declaration-colon-newline-after": "never",
     "font-family-name-quotes": "always",
     "number-leading-zero": "always",
     "length-zero-no-unit": true,
