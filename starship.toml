@@ -1,0 +1,32 @@
+# Don't print a line at the start of the prompt
+[character]
+symbol = "⮞"
+
+[username]
+show_always = true
+#style_user = "#FF8D45"
+#style_root = "bold red"
+
+
+[hostname]
+ssh_only = false
+disabled = false
+style = "#4DFFB2"
+
+[rust]
+disabled = true
+
+[python]
+disabled = true
+
+[ruby]
+disabled = true
+
+[golang]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[package]
+disabled = true
