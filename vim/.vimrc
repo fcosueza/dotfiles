@@ -56,6 +56,7 @@ let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace']
 \}
 let g:airline#extensions#ale#enabled = 1
+let g:airline_powerline_fonts = 1
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_fix_on_save = 1
 
