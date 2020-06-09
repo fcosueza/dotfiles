@@ -80,7 +80,6 @@ alias l='ls -CF'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
-
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
@@ -100,5 +99,9 @@ if [ -f ~/.config/exercism/exercism_completion.bash ]; then
 fi
 
 # Add Starship prompt
-
 eval "$(starship  init bash)"
+
+# NVM environment
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                    # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
