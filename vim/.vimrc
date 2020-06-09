@@ -119,8 +119,8 @@ au FileType javascript,css,rust setlocal colorcolumn=86
 " hi link jsTemplateBraces Label
 
 " Set signcolumn to background color
-"highlight clear SignColumn
+highlight clear SignColumn
 
-" Theming
+" Theme
 colorscheme nord
 let g:airline_theme='papercolor'
