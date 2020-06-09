@@ -116,7 +116,11 @@ highlight ColorColumn ctermbg = yellow
 au FileType javascript,css,rust setlocal colorcolumn=86
 
 " Some syntax hightlight tweaks for Javascript
-hi link jsTemplateBraces Label
+" hi link jsTemplateBraces Label
 
 " Set signcolumn to background color
-highlight clear SignColumn
+"highlight clear SignColumn
+
+" Theming
+colorscheme nord
+let g:airline_theme='papercolor'
