@@ -115,12 +115,9 @@ highlight ColorColumn ctermbg = yellow
 " Set colorcolumn according to filetype
 au FileType javascript,css,rust setlocal colorcolumn=86
 
-" Some syntax hightlight tweaks for Javascript
-" hi link jsTemplateBraces Label
-
-" Set signcolumn to background color
-highlight clear SignColumn
-
-" Theme
+" Theming
 colorscheme nord
 let g:airline_theme='papercolor'
+
+" A minor TOML syntax highlight tweek
+hi link tomlKey jsonKeyword
