@@ -113,11 +113,11 @@ set autochdir       " auto change to current file's directory
 highlight ColorColumn ctermbg = yellow
 
 " Set colorcolumn according to filetype
-au FileType javascript,css,rust setlocal colorcolumn=86
+au FileType javascript,css setlocal colorcolumn=86
+au FileType rust setlocal colorcolumn=106
 
 " Theming
 colorscheme nord
 let g:airline_theme='papercolor'
 
-" A minor TOML syntax highlight tweek
 hi link tomlKey jsonKeyword
