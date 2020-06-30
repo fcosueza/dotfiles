@@ -20,7 +20,6 @@ Plugin 'tpope/vim-surround'             " fast editing quotes, parenthesis, tags
 Plugin 'jiangmiao/auto-pairs'           " automatic closing quotes, parenthesis...
 Plugin 'vim-airline/vim-airline'        " add state bar at the bottom
 Plugin 'mattn/emmet-vim'                " abbreviations expansion for fast coding
-Plugin 'hail2u/vim-css3-syntax'         " css3 syntax highlighting
 Plugin 'tpope/vim-haml'                 " haml, scss and sass support
 Plugin 'othree/html5.vim'               " html5 syntax plugin
 Plugin 'pangloss/vim-javascript'        " javascript syntax plugin
