@@ -24,6 +24,8 @@
     "max-lines": ["error", 200],
     "max-lines-per-function": ["error", 40],
     "max-depth": ["error", 4],
-    "implicit-arrow-linebreak": "off"
+    "implicit-arrow-linebreak": "off",
+    "arrow-parens": 0,
+    "max-classes-per-file": 0
   }
 }
