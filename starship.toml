@@ -4,17 +4,18 @@ symbol = "⮞"
 
 [username]
 show_always = true
-#style_user = "#FF8D45"
-#style_root = "bold red"
-
+style_user ="#3daee9"
 
 [hostname]
 ssh_only = false
 disabled = false
+style = "bold white"
+
+[directory]
 style = "#4DFFB2"
 
 [rust]
-disabled = true
+disabled = false
 
 [python]
 disabled = true
@@ -26,7 +27,8 @@ disabled = true
 disabled = true
 
 [nodejs]
-disabled = true
+disabled = false
 
 [package]
-disabled = true
+disabled =true 
+display_private = true
