@@ -1,6 +1,6 @@
 # Don't print a line at the start of the prompt
 [character]
-symbol = "⮞"
+success_symbol = "[⮞](bold green)"
 
 [username]
 show_always = true
@@ -28,7 +28,8 @@ disabled = true
 
 [nodejs]
 disabled = false
+format = "via [⬢ $version](bold green)"
 
 [package]
-disabled =true 
+disabled = false
 display_private = true
