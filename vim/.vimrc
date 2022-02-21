@@ -23,7 +23,8 @@ Plugin 'mattn/emmet-vim'                " abbreviations expansion for fast codin
 Plugin 'tpope/vim-haml'                 " haml, scss and sass support
 Plugin 'othree/html5.vim'               " html5 syntax plugin
 Plugin 'pangloss/vim-javascript'        " javascript syntax plugin
-Plugin 'MaxMEllon/vim-jsx-pretty'       " React syntax highlight
+Plugin 'leafgarland/typescript-vim'     " support for Typescript highlight
+Plugin 'maxmellon/vim-jsx-pretty'       " React syntax highlight
 Plugin 'elzr/vim-json'                  " json syntax plugin
 Plugin 'rust-lang/rust.vim'             " rust language support
 Plugin 'plasticboy/vim-markdown'        " markdown syntax plugin
@@ -31,6 +32,7 @@ Plugin 'cespare/vim-toml'               " TOML syntax plugin
 Plugin 'Valloric/YouCompleteMe'         " autocomplete plugin
 Plugin 'tpope/vim-fugitive'             " git integration
 Plugin 'w0rp/ale'                       " Asynchronous Lint Engine
+Plugin 'arcticicestudio/nord-vim'       " Nord vim theme
 
 " Vundle block ends
 call vundle#end()
