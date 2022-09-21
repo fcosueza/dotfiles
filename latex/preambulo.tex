@@ -5,10 +5,10 @@
 %                                                                                     %
 % Original author:  Frits Wenneker (http://www.howtotex.com)                          %
 %                                                                                     %
-% Modified by: Fco Javier Sueza Rodríguez (fjsueza@correo.ugr.es)                     %
+% Modified by: Fco Javier Sueza Rodríguez (fcosueza@disroot.org)                      %
 %                                                                                     %
 % Changes:                                                                            %
-%			- Custom Chapters, Sections and Subsections (titlesec package)            %
+%	    - Custom Chapters, Sections and Subsections (titlesec package)            %
 %           - Document type scrbook (oneside)                                         %
 %           - Use babel-lang-spanish package and marvosym                             %
 %           - Use Time New Roman (mathptmx), Helvetic and Courier fonts               %
@@ -18,7 +18,7 @@
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 %-----------------------------------------------%
-%	              Packages                      %
+%	              Packages                  %
 %-----------------------------------------------%
 
 \documentclass[paper=a4, fontsize=11pt, oneside]{scrbook} 
@@ -32,17 +32,17 @@
 \usepackage{courier}
 
 \usepackage{geometry}
-\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=2.5cm,rmargin=2.5cm}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=2.6cm,rmargin=2.6cm}
 
 % ---- Language ----- %
 
-\usepackage[spanish, es-tabla]{babel}
+\usepackage[spanish]{babel}
 \usepackage{marvosym}  
 
 % ---- Another packages ---- %
 
 \usepackage{amsmath,amsfonts,amsthm}
-\usepackage{graphics,graphicx, float} 
+\usepackage{graphics,graphicx} 
 \usepackage{titlesec}
 \usepackage{fancyhdr}
 
@@ -83,9 +83,9 @@
 
 % --------- Numbering equations, figures and tables ----------------- %
 
-%\numberwithin{equation}{section} % Number equations within sections 
-%\numberwithin{figure}{section} % Number figures within sections 
-%\numberwithin{table}{section} % Number tables within sections 
+\numberwithin{equation}{section} % Number equations within sections 
+\numberwithin{figure}{section} % Number figures within sections 
+\numberwithin{table}{section} % Number tables within sections 
 
 % ------------------------ New Commands ----------------------------- %
 
