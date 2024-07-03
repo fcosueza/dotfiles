@@ -107,8 +107,9 @@ set tabstop=2       " 2 is enough
 set shiftwidth=2    " 2 is enough
 set expandtab       " don't use tab character
 set ttimeoutlen=50  " reducing delay
-set relativenumber  " relative number
+set number          " add number to lines
 set autochdir       " auto change to current file's directory
+set showtabline=2  " Muestra los tabs abiertos
 
 " Set colorcolumn color
 highlight ColorColumn ctermbg = yellow
